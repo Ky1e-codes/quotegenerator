@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 224, 224);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px black;
+    height: 300px;
+    width: 750px;
+    background-color: white;
+}
+
+.quote {
+    font-size: larger;
+    font-style: italic;
+}
+
+.author {
+    font-size: smaller;
+    font-style: italic;
+    font-weight: lighter;
+}
